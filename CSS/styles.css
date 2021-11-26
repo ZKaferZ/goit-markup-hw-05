@@ -20,12 +20,6 @@
   --function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* *,
-::before,
-::after {
-	box-sizing: border-box;
-} */
-
 body {
   font-family: Roboto, sans-serif;
   color: var(--current-text-color);
@@ -70,11 +64,6 @@ body {
   border-bottom: 1px solid var(--line-color);
 }
 
-/* Навигация */
-/* .container.nav {
-  
-  min-height: 80px;
-} */
 .nav,
 .menu {
   display: flex;
@@ -86,7 +75,6 @@ body {
   margin-right: auto;
 }
 
-/* проблема с кнопками */
 .menu-item > .link {
   display: block;
   position: relative;
@@ -107,13 +95,6 @@ body {
 .menu > .card-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-
-
-/* .work-card .card-body {
-  border: 1px solid var(--border-color);
-  border-top: 1px solid transparent;
-  padding: 20px 24px;
-} */
 
 .work-card:hover,
 .work-card:focus,
@@ -508,7 +489,9 @@ body {
 .filter > .item:not(:last-child) {
   margin-right: 8px;
 }
+
 /* портфолио-карточки */
+
 .card {
   background-color: var(--current-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -605,6 +588,7 @@ body {
 
 
 /* Портфолио заголовки: услуги/примеры работ */
+
 .work-title {
   margin: 0 0 4px 0;
 
@@ -627,6 +611,7 @@ body {
 }
 
 /* Footer */
+
 .footer {
   padding: 60px 0;
   background-color: var(--footer-bg-color);
